@@ -19,6 +19,11 @@ class UserService
         return new User;
     }
 
+    public function user(): User
+    {
+        return new User;
+    }
+
     public function userWithRelations(): \Illuminate\Database\Eloquent\Builder
     {
         return $this->braceUser()->with('business', 'question', 'country', 'submitted_assignments');
