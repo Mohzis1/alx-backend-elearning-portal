@@ -3,27 +3,39 @@
 namespace App\Services\Auth;
 
 use App\Services\Base\BaseService;
+use App\Services\Brace\DiagnosticToolService;
 use App\Services\User\UserService;
 use Illuminate\Support\Facades\Hash;
 
 class RegisterService
 {
     protected UserService $user;
-    public function __construct(UserService $user){
+    protected DiagnosticToolService $diagnostic;
+    public function __construct(UserService $user, DiagnosticToolService $diagnostic){
         $this->user = $user;
+        $this->diagnostic = $diagnostic;
     }
 
     public function createUser($request): array
     {
         $input = $request->all();
         $input['password'] = Hash::make($input['password']);
+        $input['selected'] = 1;
         $user = $this->user->user()->create($input);
 
-        // Send welcome and otp emails
+        if($user){
+            $this->diagnostic->userDiagnosticStatus()->create([
+               'user_id' => $user->id,
+               'current_question_id' => 0,
+                'is_completed' => 1,
+            ]);
+        }
+
+        // Send welcome and otp emails8
         $otp = BaseService::randomCharacters(10, '0123456789ABCDEFGHIJ');
 
-//        $this->sendWelcomeEmail($user, $emailContent);
-//        $this->sendOtpEmail($user, $otp);
+        //  $this->sendWelcomeEmail($user, $emailContent);
+        //  $this->sendOtpEmail($user, $otp);
 
         // Return user
         return [

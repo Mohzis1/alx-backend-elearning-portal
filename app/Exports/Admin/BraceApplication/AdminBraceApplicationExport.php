@@ -113,7 +113,7 @@ class AdminBraceApplicationExport implements FromCollection, ShouldAutoSize, Wit
             'Business Description',
             'Number of Employees',
 
-            'Have you participated in any African Food Changemakers programs before?',
+            'Have you participated in any ALX Backend Elearning Portal programs before?',
             'Have you participated in any climate-related training/programs?',
             'What are your expectations from the program?',
             'How would the program impact your business?',

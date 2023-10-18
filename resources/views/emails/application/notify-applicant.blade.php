@@ -7,6 +7,6 @@
 
     The AFC team will review your application and communicate with you on the next step.<br><br>
 
-    Are you a member of the African Food Changemakers Hub?<br>
+    Are you a member of the ALX Backend Elearning Portal Hub?<br>
     if not, <a class="na-text-dark-green" href="https://afchub.org">Become a member</a>
 </p>

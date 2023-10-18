@@ -14,7 +14,7 @@
             <div class="col-md-10 bg-white p-5 text-center">
                 <h4 class="brand-text">Application has been closed</h4>
                 <p class="text-dark text-medium">
-                    Are you a member of the African Food Changemakers Hub?<br>
+                    Are you a member of the ALX Backend Elearning Portal Hub?<br>
                     if not, <a class="na-text-dark-green" href="https://afchub.org">Become a member</a>
                 </p>
             </div>
@@ -419,7 +419,7 @@
 <!--                                    <div class="row">-->
 <!--                                        <div class="col-md-6">-->
 <!--                                            <label class="text-inter">-->
-<!--                                                Have you participated in any African Food Changemakers / Nourishing Africa / Changing Narrative programs before?-->
+<!--                                                Have you participated in any ALX Backend Elearning Portal / Nourishing Africa / Changing Narrative programs before?-->
 <!--                                                <span class="required font-weight-bold">*</span>-->
 <!--                                            </label>-->
 <!--                                            <select v-model="form.participated_previous_program" class="input-bg" required>-->
@@ -530,7 +530,7 @@
 
 <!--                        The AFC team will review your application and communicate with you on the next step.<br><br>-->
 
-<!--                        Are you a member of the African Food Changemakers Hub?<br>-->
+<!--                        Are you a member of the ALX Backend Elearning Portal Hub?<br>-->
 <!--                        if not, <a class="na-text-dark-green" href="https://afchub.org">Become a member</a>-->
 <!--                    </p>-->
 <!--                </div>-->

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Title -->
-    <title> @yield('title') - African Food Changemakers</title>
+    <title> @yield('title') - ALX Backend E-learning Portal</title>
 
     <!--- Favicon --->
     <link rel="icon" href="{{ asset('images/afchub_logo_square.jpg') }}" type="image/x-icon"/>
@@ -83,7 +83,7 @@
             <div class="app-sidebar__user">
                 <div class="dropdown user-pro-body text-center">
                     <div class="">
-                        <img src="{{ asset('images/afchub_logo_w200.png') }}" width="150" class="">
+                        <img src="{{ asset('images/logo-white.png') }}" width="150" class="">
                     </div>
                 </div>
             </div>
@@ -122,15 +122,15 @@
                     </router-link>
                 </li>
 
-                <li class="slide mb-3">
-                    <router-link
-                        exact
-                        class="side-menu__item"
-                        :to="{name: 'LearningSelfHelpView'}">
-                        <span class="material-symbols-outlined">quiz</span>
-                        <span class="side-menu__label pl-1">Self Help</span>
-                    </router-link>
-                </li>
+{{--                <li class="slide mb-3">--}}
+{{--                    <router-link--}}
+{{--                        exact--}}
+{{--                        class="side-menu__item"--}}
+{{--                        :to="{name: 'LearningSelfHelpView'}">--}}
+{{--                        <span class="material-symbols-outlined">quiz</span>--}}
+{{--                        <span class="side-menu__label pl-1">Self Help</span>--}}
+{{--                    </router-link>--}}
+{{--                </li>--}}
 
                 <li class="slide mb-3">
                     <router-link
@@ -178,10 +178,9 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <p class="mb-0">Join our whatsApp group</p>
-                    <a target="_blank" class="mr-2" href="https://chat.whatsapp.com/KjJWtycnY2j9eMcqPJ59Rn">
+                    <a target="_blank" class="mr-2" href="">
                         <img src="{{ asset('/images/icons/social/whatsapp.png') }}" width="30"/>
-                    </a><br>
-                    Need help? send us an email: <a href="mailto:brace@afchub.org">brace@afchub.org</a>
+                    </a>
                 </div>
             </div>
         </div>

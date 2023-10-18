@@ -3,7 +3,7 @@
 
 <head>
     <!-- title -->
-    <title>@yield('title') - ALX | E-learning and Assessment Portal </title>
+    <title>@yield('title') - ALX Backend Elearning Portal </title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -287,7 +287,7 @@
                 <!-- Start Social -->
                 <div class="col-lg-3 col-md-6 widget padding-5px-left md-padding-15px-left text-center text-md-left">
                     <div class="widget-title subscribe-text text-medium-gray margin-20px-bottom font-weight-300"
-                         style="color:#FFF">Get early access to information on agriculture</div>
+                         style="color:#FFF">Get early access to information</div>
                     <div class="input-group justify-content-center">
                         <form action=""
                               method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
@@ -380,8 +380,6 @@
 <script type="text/javascript" src="{{ asset('js/justified-gallery.min.js') }}"></script>
 <!--pie chart-->
 <script type="text/javascript" src="{{ asset('js/jquery.easypiechart.min.js') }}"></script>
-<!-- instagram -->
-<script type="text/javascript" src="{{ asset('js/instafeed.min.js') }}"></script>
 <!-- retina -->
 <script type="text/javascript" src="{{ asset('js/retina.min.js') }}"></script>
 <!-- revolution -->

@@ -5,18 +5,18 @@
 @endsection
 
 @section('meta')
-    <meta name="description" content="ALX | E-learning and Assessment Portal"/>
+    <meta name="description" content="ALX Backend Elearning Portal"/>
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
     <link rel="canonical" href="{{ Request::fullUrl() }}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="ALX | E-learning and Assessment Portal" />
-    <meta property="og:description" content="ALX | E-learning and Assessment Portal" />
+    <meta property="og:title" content="ALX Backend Elearning Portal" />
+    <meta property="og:description" content="ALX Backend Elearning Portal" />
     <meta property="og:url" content="{{ Request::fullUrl() }}" />
-    <meta property="og:site_name" content="ALX | E-learning and Assessment Portal" />
+    <meta property="og:site_name" content="ALX Backend Elearning Portal" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="ALX | E-learning and Assessment Portal" />
-    <meta name="twitter:title" content="ALX | E-learning and Assessment Portal" />
+    <meta name="twitter:description" content="ALX Backend Elearning Portal" />
+    <meta name="twitter:title" content="ALX Backend Elearning Portal" />
     <meta name="twitter:site" content="" />
     <meta name="twitter:creator" content="" />
 @endsection
@@ -105,17 +105,19 @@
                 <div class="col-md-4 swiper-slide md-margin-four-bottom margin-10px-bottom"
                      style="width: 375px;">
                     <div class="team-box bg-medium-light-gray margin-half-all bg-white box-shadow-light text-center padding-nine-all sm-padding-18px-all">
-                        <img src="{{ asset('/images/team/victor.jpeg') }}"
+                        <img src="{{ asset('/images/team/moses-isang.jpg') }}"
                              class="rounded-circle width-80 margin-25px-bottom md-margin-15px-bottom"
                              alt="Victor Chukwuemeka Mbachu">
 
                         <div class="icon-social-small">
-                            <a href="https://www.linkedin.com/in/chukwuemeka-mbachu/"
+                            <a href="https://www.linkedin.com/in/mosesisang223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                                target="_blank" class="text-navy-blue">
-                                <i class="fab fa-2x fa-linkedin"></i></a>
-                            <a href="https://www.twitter.com/dexmbachu"
+                                <i class="fab fa-2x fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com/isang_moses?t=-NorggJmuTYcQSOwfHpC2w&s=09"
                                target="_blank" class="text-navy-blue">
-                                <i class="fab fa-2x fa-twitter"></i></a>
+                                <i class="fab fa-2x fa-twitter"></i>
+                            </a>
                         </div>
 
                         <span class="text-navy-blue text-medium text-uppercase d-block line-height-11 custom-font2 font-weight-600 margin-10px-top">Moses Isang (Frontend Developer)</span>

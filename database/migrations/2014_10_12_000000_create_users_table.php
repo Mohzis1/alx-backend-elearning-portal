@@ -23,13 +23,13 @@ class CreateUsersTable extends Migration
             $table->string('verification_token')->nullable();
             $table->string('password')->nullable();
             $table->string('mobile')->nullable();
-            $table->string('gender');
-            $table->string('education');
+            $table->string('gender')->nullable();
+            $table->string('education')->nullable();
             $table->string('image')->nullable();
             $table->string('image_path')->nullable();
-            $table->unsignedBigInteger('country_id');
-            $table->unsignedBigInteger('country_residence_id');
-            $table->string('date_of_birth');
+            $table->unsignedBigInteger('country_id')->nullable();
+            $table->unsignedBigInteger('country_residence_id')->nullable();
+            $table->string('date_of_birth')->nullable();
             $table->tinyInteger('selected')->default(0)->nullable();
             $table->timestamp('last_login')->nullable();
             $table->rememberToken();

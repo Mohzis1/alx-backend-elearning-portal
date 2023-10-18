@@ -7,7 +7,7 @@
                  style="visibility: visible; animation-name: fadeInLeft; background-color: #fff;">
                 <div class="row m-0">
                     <div class="col-12 margin-six-bottom lg-margin-six-bottom md-margin-30px-bottom sm-no-margin-bottom">
-                        <h4 class="na-text-dark-green learning-intro-header text-center mx-auto mx-lg-0 sm-width-100 mb-0">
+                        <h4 class="text-orange learning-intro-header text-center mx-auto mx-lg-0 sm-width-100 mb-0">
                             Learning Portal</h4>
                         <p class="text-center text-medium font-normal-manrope-black">Login</p>
 
@@ -58,14 +58,10 @@
 
                                 <div class="col-12">
                                     <button type="submit" class="login-form-btn">Login</button>
-                                </div>
-
-                                <div class="col-12 text-center mt-2">
-                                    <a class="na-text-dark-green" :href="'/self-help'">
-                                        Having issues? take look at our self help page.
-                                    </a><br>
-                                    Need help? send us an email:
-                                    <a class="na-text-dark-green" href="mailto:brace@afchub.org">brace@afchub.org</a>
+                                    <p class="text-center">
+                                        <span class="text-dark mr-1">No Account?</span>
+                                        <a class="text-navy-blue" :href="'/learning/register'">Sign up</a>
+                                    </p>
                                 </div>
                             </div>
 

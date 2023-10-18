@@ -50,6 +50,32 @@
                                     </div>
                                 </div>
 
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Country</label><br>
+                                        <select class="login-form" v-model="form.country_id">
+                                            <option v-for="country in countries"
+                                                    :value="country.id">
+                                                {{ country.country_name }}
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Education</label><br>
+                                        <select class="login-form" v-model="form.education" required>
+                                            <option value="">Select</option>
+                                            <option value="Secondary">Secondary</option>
+                                            <option value="OND/HND">OND/HND</option>
+                                            <option value="Bachelors">Bachelors</option>
+                                            <option value="Masters">Masters</option>
+                                            <option value="PHD">PHD</option>
+                                        </select>
+                                    </div>
+                                </div>
+
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Password</label><br>
@@ -105,6 +131,7 @@
 <script>
 import {ref, reactive, onBeforeMount} from 'vue';
 import SweetAlertService from "../../../services/sweet-alert-service";
+import axios from "axios";
 
 export default {
     setup(){
@@ -112,6 +139,8 @@ export default {
             first_name: '',
             last_name: '',
             email: '',
+            education: '',
+            country_id: '',
             password: '',
             remember_me: false,
         });
@@ -119,6 +148,7 @@ export default {
         const errors = ref([]);
         const error_message = ref('');
         const registered = ref(false);
+        const countries = ref([]);
 
         const registerUser = async () => {
             SweetAlertService.formLoading(Swal, 'Please wait', 'Submitting...');
@@ -150,6 +180,19 @@ export default {
             });
         }
 
+        const getCountries = async () => {
+            await axios.get("/api/countries/africa").then((response) => {
+                if (response.data.success) {
+                    console.log("Countries", response.data.countries);
+                    countries.value = response.data.countries;
+                } else {
+                    console.log(response.data.message);
+                }
+            }).catch((error) => {
+                console.log(error);
+            });
+        };
+
         const deleteCookies = () => {
             const cookies = document.cookie.split("; ");
             console.log(cookies);
@@ -170,7 +213,7 @@ export default {
         }
 
         onBeforeMount(() => {
-           // deleteCookies();
+           getCountries();
         });
 
         return {
@@ -178,7 +221,9 @@ export default {
             errors,
             error_message,
             registered,
+            countries,
 
+            getCountries,
             registerUser,
             deleteCookies
         }

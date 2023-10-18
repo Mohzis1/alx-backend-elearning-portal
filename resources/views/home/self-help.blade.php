@@ -5,18 +5,18 @@
 @endsection
 
 @section('meta')
-    <meta name="description" content="Welcome to African Food Changemakers - Building Resilience Against Climate Effects In Africa Program (BRACE) - Self Help"/>
+    <meta name="description" content="Welcome to ALX Backend Elearning Portal - Building Resilience Against Climate Effects In Africa Program (BRACE) - Self Help"/>
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
     <link rel="canonical" href="{{ Request::fullUrl() }}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Welcome to African Food Changemakers | Building Resilience Against Climate Effects In Africa Program (BRACE) | Self Help" />
-    <meta property="og:description" content="Welcome to  African Food Changemakers | Building Resilience Against Climate Effects In Africa Program (BRACE) | Self Help" />
+    <meta property="og:title" content="Welcome to ALX Backend Elearning Portal | Building Resilience Against Climate Effects In Africa Program (BRACE) | Self Help" />
+    <meta property="og:description" content="Welcome to  ALX Backend Elearning Portal | Building Resilience Against Climate Effects In Africa Program (BRACE) | Self Help" />
     <meta property="og:url" content="{{ Request::fullUrl() }}" />
-    <meta property="og:site_name" content="African Food Changemakers" />
+    <meta property="og:site_name" content="ALX Backend Elearning Portal" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="Welcome African Food Changemakers | Building Resilience Against Climate Effects In Africa Program (BRACE) | Self help" />
-    <meta name="twitter:title" content="Welcome to African Food Changemakers Hub - African Food Changemakers" />
+    <meta name="twitter:description" content="Welcome ALX Backend Elearning Portal | Building Resilience Against Climate Effects In Africa Program (BRACE) | Self help" />
+    <meta name="twitter:title" content="Welcome to ALX Backend Elearning Portal Hub - ALX Backend Elearning Portal" />
     <meta name="twitter:site" content="@nourish_africa" />
     <meta name="twitter:creator" content="@nourish_africa" />
 
@@ -27,7 +27,7 @@
       {
          "@type":"Organization",
          "@id":"https://brace.afchub.org/#organization",
-         "name":"African Food Changemakers",
+         "name":"ALX Backend Elearning Portal",
          "url":"https://brace.afchub.org/",
          "sameAs":[
             "https://www.facebook.com/nourishafrica1",
@@ -41,7 +41,7 @@
             "url":"https://brace.afchub.org/wp-content/uploads/2019/04/NA-1-Official.png",
             "width":848,
             "height":519,
-            "caption":"African Food Changemakers"
+            "caption":"ALX Backend Elearning Portal"
          },
          "image":{
             "@id":"https://brace.afchub.org/#logo"
@@ -51,7 +51,7 @@
          "@type":"WebSite",
          "@id":"https://brace.afchub.org/#website",
          "url":"https://brace.afchub.org/",
-         "name":"African Food Changemakers",
+         "name":"ALX Backend Elearning Portal",
          "description":"A home for 1 million agri-food entrepreneurs transforming Africa&#039;s agricultural",
          "publisher":{
             "@id":"https://brace.afchub.org/#organization"
@@ -67,7 +67,7 @@
          "@id":"{{ Request::fullUrl() }}#webpage",
          "url":"{{ Request::fullUrl() }}",
          "inLanguage":"en-US",
-         "name":"Welcome to African Food Changemakers Hub - Building Resilience Against Climate Effects In Africa Program (BRACE)",
+         "name":"Welcome to ALX Backend Elearning Portal Hub - Building Resilience Against Climate Effects In Africa Program (BRACE)",
          "isPartOf":{
             "@id":"https://brace.afchub.org/#website"
          },

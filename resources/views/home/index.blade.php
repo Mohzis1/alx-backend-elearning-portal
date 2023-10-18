@@ -5,18 +5,18 @@
 @endsection
 
 @section('meta')
-    <meta name="description" content="ALX | E-learning and Assessment Portal"/>
+    <meta name="description" content="ALX Backend Elearning Portal"/>
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
     <link rel="canonical" href="{{ Request::fullUrl() }}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="ALX | E-learning and Assessment Portal" />
-    <meta property="og:description" content="ALX | E-learning and Assessment Portal" />
+    <meta property="og:title" content="ALX Backend Elearning Portal" />
+    <meta property="og:description" content="ALX Backend Elearning Portal" />
     <meta property="og:url" content="{{ Request::fullUrl() }}" />
-    <meta property="og:site_name" content="ALX | E-learning and Assessment Portal" />
+    <meta property="og:site_name" content="ALX Backend Elearning Portal" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="ALX | E-learning and Assessment Portal" />
-    <meta name="twitter:title" content="ALX | E-learning and Assessment Portal" />
+    <meta name="twitter:description" content="ALX Backend Elearning Portal" />
+    <meta name="twitter:title" content="ALX Backend Elearning Portal" />
     <meta name="twitter:site" content="" />
     <meta name="twitter:creator" content="" />
 @endsection

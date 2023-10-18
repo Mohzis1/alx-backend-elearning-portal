@@ -64,7 +64,7 @@ class BraceApplicationRequest extends FormRequest
             'business_country_id.required' => 'Business country residence is required!',
             'business_description.required' => 'Brief description of your business? is required!',
             'business_registered.required' => 'Do you have a registered Business? is required!',
-            'participated_previous_program.required' => 'Have you participated in any African Food Changemakers / Nourishing Africa / Changing Narrative programs before? is required!',
+            'participated_previous_program.required' => 'Have you participated in any ALX Backend Elearning Portal / Nourishing Africa / Changing Narrative programs before? is required!',
             'participated_climate_program.required' => 'Have you participated in any climate-related training/programs? is required!',
             'expectations_from_program.required' => 'What are your expectations from the program? is required!',
             'impact_on_business.required' => 'How would the program impact your business? is required!',

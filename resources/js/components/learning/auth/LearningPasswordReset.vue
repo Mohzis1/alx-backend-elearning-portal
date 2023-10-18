@@ -50,10 +50,10 @@
 
                         </form>
 
-                        <p class="text-inter text-center pt-2">
-                            <strong>NOTE:</strong> Check your spam emails if you don't see any link in your mailbox<br>
-                            Having issues with your password reset form? <br>send us a message on brace@afchub.org
-                        </p>
+<!--                        <p class="text-inter text-center pt-2">-->
+<!--                            <strong>NOTE:</strong> Check your spam emails if you don't see any link in your mailbox<br>-->
+<!--                            Having issues with your password reset form? <br>send us a message on brace@afchub.org-->
+<!--                        </p>-->
                     </div>
                     <!-- end feature box item -->
                 </div>

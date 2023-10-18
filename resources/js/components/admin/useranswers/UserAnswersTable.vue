@@ -38,7 +38,7 @@
                                         </strong><br>{{ application.number_of_employees }}<br>
 
                                         <strong>
-                                            Have you participated in any African Food Changemakers / Nourishing Africa / Changing Narrative programs before?
+                                            Have you participated in any ALX Backend Elearning Portal / Nourishing Africa / Changing Narrative programs before?
                                         </strong><br>
                                         {{ application.participated_previous_program }}<br>
 
@@ -90,7 +90,7 @@ export default {
             return item === "" ? "noanswer" : "ansgiven"
         }
     }
-    
+
 }
 </script>
 
