@@ -90,7 +90,7 @@
                              alt="Victor Chukwuemeka Mbachu">
 
                         <div class="icon-social-small">
-                            <a href="https://www.linkedin.com/in/chukwuemeka-mbachu/"
+                            <a href="https://www.linkedin.com/in/victor-mbachu/"
                                target="_blank" class="text-navy-blue">
                                 <i class="fab fa-2x fa-linkedin"></i></a>
                             <a href="https://www.twitter.com/dexmbachu"
@@ -105,7 +105,27 @@
                 <div class="col-md-4 swiper-slide md-margin-four-bottom margin-10px-bottom"
                      style="width: 375px;">
                     <div class="team-box bg-medium-light-gray margin-half-all bg-white box-shadow-light text-center padding-nine-all sm-padding-18px-all">
-                        <img src="{{ asset('/images/team/thomas.jpg') }}"
+                        <img src="{{ asset('/images/team/victor.jpeg') }}"
+                             class="rounded-circle width-80 margin-25px-bottom md-margin-15px-bottom"
+                             alt="Victor Chukwuemeka Mbachu">
+
+                        <div class="icon-social-small">
+                            <a href="https://www.linkedin.com/in/chukwuemeka-mbachu/"
+                               target="_blank" class="text-navy-blue">
+                                <i class="fab fa-2x fa-linkedin"></i></a>
+                            <a href="https://www.twitter.com/dexmbachu"
+                               target="_blank" class="text-navy-blue">
+                                <i class="fab fa-2x fa-twitter"></i></a>
+                        </div>
+
+                        <span class="text-navy-blue text-medium text-uppercase d-block line-height-11 custom-font2 font-weight-600 margin-10px-top">Moses Isang (Frontend Developer)</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 swiper-slide md-margin-four-bottom margin-10px-bottom"
+                     style="width: 375px;">
+                    <div class="team-box bg-medium-light-gray margin-half-all bg-white box-shadow-light text-center padding-nine-all sm-padding-18px-all">
+                        <img src="{{ asset('/images/team/chioma.jpg') }}"
                              class="rounded-circle width-80 margin-25px-bottom md-margin-15px-bottom" alt="dr-debisi-araba">
 
                         <div class="icon-social-small">
@@ -117,7 +137,7 @@
                                 <i class="fab fa-2x fa-twitter"></i></a>
                         </div>
 
-                        <span class="text-navy-blue text-medium text-uppercase d-block line-height-11 custom-font2 font-weight-600 margin-10px-top">Thomas Esther Omotayo (Frontend Developer)</span>
+                        <span class="text-navy-blue text-medium text-uppercase d-block line-height-11 custom-font2 font-weight-600 margin-10px-top">Chioma Modesta Orji (DevOps and Project Management)</span>
                     </div>
                 </div>
 
