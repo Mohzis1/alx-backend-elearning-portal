@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\Learning\LearningLoginController;
+use App\Http\Controllers\Auth\Learning\LearningRegisterController;
 use App\Http\Controllers\Base\BaseController;
 use App\Http\Controllers\Learning\Assessment\LearningModuleAssessmentController;
 use App\Http\Controllers\Learning\Course\LearningCourseController;
@@ -33,6 +34,7 @@ Route::get('/world/countries/africa', [BaseController::class, 'getWorldAfricanCo
 Route::get('/world/states/africa', [BaseController::class, 'getWorldAfricanStates']);
 
 // Learning Login
+Route::post('/learning/register', [LearningRegisterController::class, 'register']);
 Route::post('/learning/login', [LearningLoginController::class, 'login']);
 Route::post('/learning/password/reset', [LearningLoginController::class, 'submitPasswordReset']);
 Route::post('/learning/password/update', [LearningLoginController::class, 'updatePasswordReset']);
