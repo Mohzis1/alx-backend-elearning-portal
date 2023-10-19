@@ -80,14 +80,12 @@ export default {
 
         const errors = ref([]);
         const error_message = ref('');
-        const apiUrl = process.env.MIX_API_URL;
 
         const submitLogin = async () => {
-            console.log(apiUrl);
             SweetAlertService.formLoading(Swal, 'Please wait', 'Submitting...');
             // First delete any token stored on the browser
             localStorage.removeItem("afc-admin-tk");
-            await axios.post(apiUrl+'/api/admin/login', form, {
+            await axios.post('/api/admin/login', form, {
                 // set to false when 'Access-Control-Allow-Origin' is '*'
                 headers: {
                     "Accept": "application/json",
@@ -118,14 +116,13 @@ export default {
         }
 
         onMounted(() => {
-            console.log(apiUrl);
+
         });
 
         return {
             form,
             errors,
             error_message,
-            apiUrl,
 
             submitLogin
         }

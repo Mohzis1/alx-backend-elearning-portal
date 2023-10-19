@@ -3,7 +3,7 @@
 <p>
     Hello {{ $name }}.<br><br>
 
-    Thank you for completing your BRACE application.<br>
+    Thank you for completing your ALX Backend Elearning Portal application.<br>
     However, we have noticed you haven't attempted any course on our portal yet.<br><br>
 
     Please login to your account <a href="{{ route('learning.login') }}">here</a> or use our password reset <a href="{{ route('learning.password.reset') }}">here</a> to get a new password.

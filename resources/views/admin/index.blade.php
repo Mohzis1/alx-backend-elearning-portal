@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
 
-    <title>Admin | BRACE</title>
+    <title>Admin | ALX Backend Elearning Portal</title>
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -84,19 +84,19 @@
                         </router-link>
                     </li>
 
-                    <li class="nav-item">
-                        <router-link exact to="/admin/diagnostic-questions">
-                            <i class="fa fa-users"></i>
-                            <span class="menu-title">Diagnostic Questions</span>
-                        </router-link>
-                    </li>
+{{--                    <li class="nav-item">--}}
+{{--                        <router-link exact to="/admin/diagnostic-questions">--}}
+{{--                            <i class="fa fa-users"></i>--}}
+{{--                            <span class="menu-title">Diagnostic Questions</span>--}}
+{{--                        </router-link>--}}
+{{--                    </li>--}}
 
-                    <li class="nav-item">
-                        <router-link exact :to="{name: 'AdminDiagnosticToolResultsView'}">
-                            <i class="fa fa-book"></i>
-                            <span class="menu-title">Diagnostic Results</span>
-                        </router-link>
-                    </li>
+{{--                    <li class="nav-item">--}}
+{{--                        <router-link exact :to="{name: 'AdminDiagnosticToolResultsView'}">--}}
+{{--                            <i class="fa fa-book"></i>--}}
+{{--                            <span class="menu-title">Diagnostic Results</span>--}}
+{{--                        </router-link>--}}
+{{--                    </li>--}}
 
                     <li class="nav-item">
                         <router-link exact :to="{name: 'AdminModuleView'}">
@@ -112,31 +112,29 @@
                         </router-link>
                     </li>
 
-                    <li class="has-sub">
-                        <a class="menu-item"><i class="icon-bar-chart"></i>Post Diagnostic Tool</a>
-                        <ul class="menu-content">
-                            <li>
-                                <router-link exact :to="{name: 'AdminPostDiagnosticCategoryView'}">
-                                    <i class="fa fa-group"></i>
-                                    <span class="menu-title">Categories</span>
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link exact :to="{name: 'AdminPostDiagnosticQuestionView'}">
-                                    <i class="fa fa-question"></i>
-                                    <span class="menu-title">Questions</span>
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link exact :to="{name: 'AdminPostDiagnosticUserView'}">
-                                    <i class="fa fa-user"></i>
-                                    <span class="menu-title">Results</span>
-                                </router-link>
-                            </li>
-                        </ul>
-                    </li>
-
-
+{{--                    <li class="has-sub">--}}
+{{--                        <a class="menu-item"><i class="icon-bar-chart"></i>Post Diagnostic Tool</a>--}}
+{{--                        <ul class="menu-content">--}}
+{{--                            <li>--}}
+{{--                                <router-link exact :to="{name: 'AdminPostDiagnosticCategoryView'}">--}}
+{{--                                    <i class="fa fa-group"></i>--}}
+{{--                                    <span class="menu-title">Categories</span>--}}
+{{--                                </router-link>--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                <router-link exact :to="{name: 'AdminPostDiagnosticQuestionView'}">--}}
+{{--                                    <i class="fa fa-question"></i>--}}
+{{--                                    <span class="menu-title">Questions</span>--}}
+{{--                                </router-link>--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                <router-link exact :to="{name: 'AdminPostDiagnosticUserView'}">--}}
+{{--                                    <i class="fa fa-user"></i>--}}
+{{--                                    <span class="menu-title">Results</span>--}}
+{{--                                </router-link>--}}
+{{--                            </li>--}}
+{{--                        </ul>--}}
+{{--                    </li>--}}
 
                 </ul>
 
@@ -219,7 +217,7 @@
         <footer class="footer footer-static footer-light">
             <p class="clearfix text-muted text-center px-2">
                 <span>
-                    Copyright  &copy; {{ date('Y') }} Building Resilience Against Climate and Environmental Shocks, All rights reserved.
+                    Copyright  &copy; {{ date('Y') }} ALX Backend Elearning Portal, All rights reserved.
                 </span>
             </p>
         </footer>

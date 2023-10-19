@@ -102,7 +102,7 @@ class BraceApplicationService
 //            BaseService::sendEmailGeneral(
 //                $emailData,
 //                'emails.application.notify-applicant',
-//                'BRACE | Application Complete',
+//                'ALX Backend Elearning Portal | Application Complete',
 //                $emailData['email'],
 //                $emailData['name']
 //            );

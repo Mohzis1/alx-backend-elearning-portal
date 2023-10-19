@@ -131,12 +131,9 @@
                              class="rounded-circle width-80 margin-25px-bottom md-margin-15px-bottom" alt="dr-debisi-araba">
 
                         <div class="icon-social-small">
-                            <a href="https://www.linkedin.com/in/thomas-omotayo-545266131/"
+                            <a href="https://www.linkedin.com/me?trk=p_mwlite_feed_updates-secondary_nav"
                                target="_blank" class="text-navy-blue">
                                 <i class="fab fa-2x fa-linkedin"></i></a>
-                            <a href="https://twitter.com/ethomdigital?t=SG3tTw_YfEGT3xOwpT1EZg&s=09"
-                               target="_blank" class="text-navy-blue">
-                                <i class="fab fa-2x fa-twitter"></i></a>
                         </div>
 
                         <span class="text-navy-blue text-medium text-uppercase d-block line-height-11 custom-font2 font-weight-600 margin-10px-top">Chioma Modesta Orji (DevOps and Project Management)</span>

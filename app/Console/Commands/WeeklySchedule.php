@@ -52,7 +52,7 @@ class WeeklySchedule extends Command
                 BaseService::sendEmailGeneral(
                     $emailData,
                     'emails.schedule.users-not-started-program',
-                    'BRACE | You have not started a course on our portal yet',
+                    'ALX Backend Elearning Portal | You have not started a course on our portal yet',
                     $emailData['email'],
                     $emailData['name'],
                 );
@@ -72,7 +72,7 @@ class WeeklySchedule extends Command
 //                    BaseService::sendEmailGeneral(
 //                        $emailData,
 //                        'emails.schedule.users-not-started-program',
-//                        'BRACE | You have not started a course on our portal yet',
+//                        'ALX Backend Elearning Portal | You have not started a course on our portal yet',
 //                        $emailData['email'],
 //                        $emailData['name'],
 //                    );

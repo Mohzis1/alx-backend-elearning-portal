@@ -295,7 +295,7 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "col-12"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h4", {
   "class": "content-header"
-}, "BRACE | Assignment Submissions")], -1 /* HOISTED */);
+}, "ALX Backend Elearning Portal | Assignment Submissions")], -1 /* HOISTED */);
 var _hoisted_3 = {
   "class": "col-xl-3 col-lg-6 col-12"
 };

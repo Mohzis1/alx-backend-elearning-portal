@@ -24,6 +24,10 @@ use App\Http\Controllers\Auth\Admin\AdminLoginController;
 use App\Http\Controllers\Learning\DiagnosticToolsController;
 use Illuminate\Support\Facades\Route;
 
+//Admin Login
+Route::post('/admin/login', [AdminLoginController::class, 'login']);
+Route::get('/admin/authenticate', [AdminLoginController::class, 'authenticate']);
+
 Route::get('/admin/dashboard/stats', [AdminDashboardController::class, 'getStats']);
 
 // Admin Application

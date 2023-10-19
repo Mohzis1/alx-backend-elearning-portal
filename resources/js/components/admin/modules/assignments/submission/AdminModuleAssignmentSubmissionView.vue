@@ -103,7 +103,7 @@ import {
 <template>
     <div class="row">
         <div class="col-12">
-            <h4 class="content-header">BRACE | Assignment Submissions</h4>
+            <h4 class="content-header">ALX Backend Elearning Portal | Assignment Submissions</h4>
         </div>
 
         <div class="col-xl-3 col-lg-6 col-12">

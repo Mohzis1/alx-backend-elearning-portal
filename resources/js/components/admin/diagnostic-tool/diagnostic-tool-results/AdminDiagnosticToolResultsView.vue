@@ -88,7 +88,7 @@ import {
 <template>
     <div class="row">
         <div class="col-12">
-            <h4 class="content-header">BRACE | Diagnostic Tool</h4>
+            <h4 class="content-header">ALX Backend Elearning Portal | Diagnostic Tool</h4>
         </div>
 
         <div class="col-xl-3 col-lg-6 col-12">

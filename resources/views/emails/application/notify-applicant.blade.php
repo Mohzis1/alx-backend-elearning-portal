@@ -3,7 +3,7 @@
 <p>
     Hello {{ $name }}.<br><br>
 
-    Thank you for completing your application for Building Resilience Against Climate and Environmental Shocks (BRACE).<br><br>
+    Thank you for completing your application for ALX Backend Elearning Portal (ALX Backend Elearning Portal).<br><br>
 
     The AFC team will review your application and communicate with you on the next step.<br><br>
 

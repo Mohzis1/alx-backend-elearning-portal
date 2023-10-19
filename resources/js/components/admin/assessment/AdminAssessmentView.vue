@@ -85,7 +85,7 @@
 <template>
     <div class="row">
         <div class="col-12">
-            <h4 class="content-header">BRACE | Assessments</h4>
+            <h4 class="content-header">ALX Backend Elearning Portal | Assessments</h4>
         </div>
 
         <div class="col-xl-3 col-lg-4 col-12">

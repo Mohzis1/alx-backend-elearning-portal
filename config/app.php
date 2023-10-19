@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Building Resilience Against Climate and Environmental Shocks'),
+    'name' => env('APP_NAME', 'ALX Backend Elearning Portal'),
     'mail_from' => env('MAIL_FROM_ADDRESS', 'brace@afchub.org'),
     'app_url' => env('APP_URL', 'https://brace.afchub.org'),
 

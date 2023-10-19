@@ -26,7 +26,7 @@
                                             </p>
 
                                             <p class="width-75 mx-auto yaedp-content text-extra-dark-gray lg-width-90 sm-width-100 text-large">
-                                                The aim of this tool is to collect information about participants’ level of understanding and lessons learned from the BRACE program and how these lessons would be applied to their business to adopt climate-smart practices.<br>
+                                                The aim of this tool is to collect information about participants’ level of understanding and lessons learned from the ALX Backend Elearning Portal program and how these lessons would be applied to their business to adopt climate-smart practices.<br>
                                                 Please provide an honest and sincere response to the questions related to your business.<br><br>
 
                                                 1. Please note that you cannot go back to previous questions, so make sure to answer the questions correctly.<br>

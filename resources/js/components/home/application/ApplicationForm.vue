@@ -526,7 +526,7 @@
 <!--                <div v-else class="text-center custom-font2">-->
 <!--                    <h3 class="brand-text">Submitted</h3>-->
 <!--                    <p class="text-dark text-medium">-->
-<!--                        Thank you for completing your application for Building Resilience Against Climate and Environmental Shocks (BRACE).<br><br>-->
+<!--                        Thank you for completing your application for ALX Backend Elearning Portal (ALX Backend Elearning Portal).<br><br>-->
 
 <!--                        The AFC team will review your application and communicate with you on the next step.<br><br>-->
 

@@ -64,6 +64,41 @@ class LoginService
         ];
     }
 
+    public function adminLoginWithToken(
+        $request,
+        String $webGuard,
+        String $apiGuard,
+        $queryBuilder
+    ): array
+    {
+        if(Auth::guard($webGuard)->attempt([
+            'email' => trim($request->email),
+            'password' => trim($request->password),
+        ])){
+            // get Session
+            $user = Auth::guard($webGuard)->user();
+            // Delete already existing tokens for user
+//            PersonalAccessToken::where('name', $request->email)->delete();
+            // Create new token
+            $token = $user->createToken($request->email, [$apiGuard])->plainTextToken;
+            // Last login
+            $queryBuilder->where('email', $request->email)->update([
+                'last_login' => Carbon::now()->format('Y-m-d h:i:s'),
+            ]);
+
+            return [
+                'success' => true,
+                'user' => $user,
+                'token' => $token,
+            ];
+        }
+
+        return [
+            'success' => false,
+            'error_message' => 'Incorrect credentials',
+        ];
+    }
+
     public function sendPasswordReset($request, $query): array
     {
         $user = $query->where('email', trim($request->email))->first();
@@ -83,7 +118,7 @@ class LoginService
             BaseService::sendEmailGeneral(
                 $emailArray,
                 'emails.learning.auth.send-password-reset-token',
-                'BRACE | Password Reset Token',
+                'ALX Backend Elearning Portal | Password Reset Token',
                 $emailArray['email'],
                 $emailArray['name']
             );
@@ -116,10 +151,15 @@ class LoginService
         ];
     }
 
-    public function authenticateUserWithToken($token): array
+    public function authenticateUserWithToken($token, $userType = null): array
     {
         $user = PersonalAccessToken::findToken($token)->tokenable;
-        $diagnosticCompleted = $this->diagnostic->userCompletedDiagnostic($user->id);
+        if($userType !== null){
+            $diagnosticCompleted = $this->diagnostic->userCompletedDiagnostic($user->id);
+        }else{
+            $diagnosticCompleted = false;
+        }
+
         return [
             'success' => true,
             'user' => new UserResource($user),

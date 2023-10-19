@@ -7,7 +7,7 @@
                         <div class="question">
                         <div class="py-2 h3 text-center">
                             <b>
-                                BRACE DIAGNOSTIC TOOL INSTRUCTIONS
+                                ALX Backend Elearning Portal DIAGNOSTIC TOOL INSTRUCTIONS
                             </b>
                         </div>
                         <div class="" id="options">

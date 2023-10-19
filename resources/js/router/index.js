@@ -48,9 +48,8 @@ const LearningCourseShow = () => import(/* webpackChunkName: "learning-course-sh
 const LearningAccountView = () => import(/* webpackChunkName: "learning-account" */ '../components/learning/account/LearningAccountView.vue');
 const LearningSelfHelpView = () => import(/* webpackChunkName: "learning-self-help" */ '../components/learning/self-help/LearningSelfHelpView.vue');
 
-// main hub api
-const adminUserUrl = process.env.MIX_API_URL+'/api/admin/user';
-const adminLogoutUrl = process.env.MIX_API_URL+'/api/admin/logout';
+// // main hub api
+const authenticateAdmin = '/api/admin/authenticate';
 
 /* Authenticated Component */
 const routes = [
@@ -73,7 +72,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -91,7 +90,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -106,7 +105,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -121,7 +120,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -136,7 +135,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -151,7 +150,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -166,7 +165,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -181,7 +180,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -196,7 +195,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -211,7 +210,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -227,7 +226,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -242,7 +241,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -257,7 +256,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -272,7 +271,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -287,7 +286,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -302,7 +301,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -317,7 +316,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -332,7 +331,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminUserUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 next,
                 '/admin/login',
@@ -346,7 +345,7 @@ const routes = [
         beforeEnter: (to, from, next) => {
             BaseService.deleteCookies();
             RouteService.authenticateUser(
-                adminLogoutUrl,
+                authenticateAdmin,
                 localStorage.getItem('afc-admin-tk'),
                 window.location.href = '/admin/login',
                 '/admin/login'

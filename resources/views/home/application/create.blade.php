@@ -99,7 +99,7 @@
             <div class="row">
                 <div class="col-12">
                     <h4 class="text-white custom-font2 text-left font-weight-500 letter-spacing-minus-1 text-center"
-                        style="margin-bottom: 0;">Building Resilience Against Climate and Environmental Shocks (BRACE)</h4>
+                        style="margin-bottom: 0;">ALX Backend Elearning Portal (ALX Backend Elearning Portal)</h4>
                 </div>
             </div>
         </div>

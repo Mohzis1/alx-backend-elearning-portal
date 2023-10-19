@@ -38,7 +38,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
     "width": "100%",
     "height": "100%"
   },
-  title: "BRACE - Introduction"
+  title: "ALX Backend Elearning Portal - Introduction"
 })])], -1 /* HOISTED */);
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "col-md-9 mb-5"
@@ -61,7 +61,7 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
     "width": "100%",
     "height": "100%"
   },
-  title: "BRACE - Onboarding Session"
+  title: "ALX Backend Elearning Portal - Onboarding Session"
 })])], -1 /* HOISTED */);
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "col-md-9 mb-5"
@@ -84,7 +84,7 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
     "width": "100%",
     "height": "100%"
   },
-  title: "BRACE - Diagnostic Tool - Onboarding"
+  title: "ALX Backend Elearning Portal - Diagnostic Tool - Onboarding"
 })])], -1 /* HOISTED */);
 var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "col-md-9 mb-5"
@@ -107,7 +107,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
     "width": "100%",
     "height": "100%"
   },
-  title: "BRACE - Portal Onboarding"
+  title: "ALX Backend Elearning Portal - Portal Onboarding"
 })])], -1 /* HOISTED */);
 
 function render(_ctx, _cache) {
