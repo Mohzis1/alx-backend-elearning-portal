@@ -53,16 +53,16 @@
 
         <div class="sidebar-header">
             <div class="logo clearfix"><a href="{{ url('/') }}" class="logo-text float-left">
-                    <div>
-                        <img src="{{ asset('images/logo-white.png') }}" />
-                    </div>
-                    <span class="text align-middle"></span></a>
-                    <a id="sidebarToggle" href="javascript:;"
-                       class="nav-toggle d-none d-sm-none d-md-none d-lg-block">
-                        <i data-toggle="expanded" class="ft-disc toggle-icon"></i></a>
-                    <a id="sidebarClose" href="javascript:;"
-                       class="nav-close d-block d-md-block d-lg-none d-xl-none">
-                        <i class="ft-circle"></i></a>
+                <div>
+                    <img src="{{ asset('images/logo-white.png') }}" />
+                </div>
+                <span class="text align-middle"></span></a>
+                <a id="sidebarToggle" href="javascript:;"
+                   class="nav-toggle d-none d-sm-none d-md-none d-lg-block">
+                    <i data-toggle="expanded" class="ft-disc toggle-icon"></i></a>
+                <a id="sidebarClose" href="javascript:;"
+                   class="nav-close d-block d-md-block d-lg-none d-xl-none">
+                    <i class="ft-circle"></i></a>
             </div>
         </div>
 
