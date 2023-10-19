@@ -54,7 +54,7 @@
         <div class="sidebar-header">
             <div class="logo clearfix"><a href="{{ url('/') }}" class="logo-text float-left">
                     <div>
-                        <img src="{{ asset('images/afchub-logo-white-w200.png') }}" />
+                        <img src="{{ asset('images/logo-white.png') }}" />
                     </div>
                     <span class="text align-middle"></span></a>
                     <a id="sidebarToggle" href="javascript:;"
