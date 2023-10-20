@@ -138,7 +138,7 @@ Overview
                     Our cutting-edge E-Learning platform designed specifically for organizations, schools, and professionals seeking to unlock their full potential in the digital age. We understand that continuous learning is vital for personal and organizational growth, and that's why we have created a comprehensive online hub where knowledge meets convenience.
                 </p>
                 <p>
-                    Whether you are an organization looking to upskill your workforce, a school aiming to enhance student engagement, or a professional seeking to expand your expertise, our platform offers a diverse range of courses, interactive modules, and collaborative tools tailored to your unique needs. Embrace the future of education with us and embark on a transformative learning journey that empowers you to thrive in today's dynamic world
+                    Whether you are an organization looking to upskill your workforce, a school aiming to enhance student engagement, or a professional seeking to expand your expertise, our platform offers a diverse range of courses, interactive modules, and collaborative tools tailored to your unique needs. Embrace the future of education with us and embark on a transformative learning journey that empowers you to thrive in today's dynamic world.
                 </p>
             </div>
             <div class="col-md-6">
